@@ -14,7 +14,7 @@ The platform enables users to explore their environments using natural language 
 
 Users have the capability to investigate various aspects of their environments, including assets, applications, activities, software versions, relationships, dependencies, and logical constraints.
 
-CyberHuntingEnv seamlessly integrates with generative AI. During exploration, users can leverage AI models' extensive knowledge on operating systems, networking, cloud computing, threat intelligence, and MITRE ATT&CK TTPs.
+CyberHuntingEnv seamlessly integrates with a LLM model. During exploration, users can leverage AI models' extensive knowledge on operating systems, networking, cloud computing, threat intelligence, and MITRE ATT&CK TTPs.
 
 Through the interactive interface, users can execute and refine their explorations, analyze results, and build aggregated databases. This iterative exploration process enables users to gain deeper insights into their environments.
 
