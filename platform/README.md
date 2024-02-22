@@ -1,5 +1,5 @@
 
---:### Xiao Netlytical
+# Xiao Netlytical
 
 CyberHuntEnv is an open-source project and platform dedicated to creating an environment for IT and security professionals. It empowers them to comprehend their dynamically evolving environments, establish baselines, identify anomalies, and implement security measures.
 
@@ -60,6 +60,7 @@ During exploration exercises, users can fine-tune their queries through test run
 ## Other Features and Details
 
 The platform enables users to:
+
 Create and store transformed datasets derived from abstractions and aggregations.
 Selectively record interactions, including query prompts, KiwiSpecs, and resulting datasets.
 Collect KiwiSpecs as discovery rules for ongoing discoveries.
@@ -68,3 +69,64 @@ Launch the platform with pre-built prompts and pre-built KiwiSpecs.
 Continuously learn new prompts, prompt chains, and KiwiSpecs.
 Generate discovery and violation reports.
 
+### Features
+
+The following features are provided by the platform:
+- Browse built-in KiwiSpecs
+- Browse pre-built prompts
+- Browse developed prompt chains
+- Run KiwiSpec queries and examine outputs
+- Save running outputs as datasets
+- Save prompts as built-in prompts
+- Save KiwiSpec queries as built-in specifications
+- Document the exploration process
+
+### Stages:
+
+During exploration, user can be in any of the following stages:
+
+1. Learn environment
+2. Discover vulnerabilities
+3. Develop baselines
+4. Identify anomalies and outliers
+5. Create security rules
+6. Documenting at any stage
+
+### Flow:
+
+During exploration, user can be working on any of the following subtasks:
+
+1. Hypothesis development:
+   - Prompts for gathering knowledge
+   - Prompts for consolidating involved logs and configurations, including format and fields
+2. Query planning:
+   - Pull in involved logs and configurations: local file locations
+3. KiwiSpec generation:
+   - Translate natural language query prompts to KiwiSpec queries
+   - Edit KiwiSpec queries
+4. Test KiwiSpec queries:
+   - Go back to step 2 as needed
+5. Close one hypothesis:
+   - Save selected knowledge, prompts, KiwiSpecs, and outputs
+   - Go back to step 1
+6. Develop security rules and set up automation
+
+### Result Data Examples:
+Some of the exmaple query items:
+- Aggregated groups of workloads
+- Aggregated traffic patterns
+- Cross-referencing applications
+- Accessing tracks
+- Internet access tracks
+- Software versions
+- Processes initiated (Event ID 4688), especially those running on only a few machines
+- Registry changes (Event ID 4663)
+- Task scheduling and task state changes (Event ID 4698 - 4702)
+- Addition of unknown/unapproved services (Event ID 4697)
+- User additions to privileged groups (Event ID 4728, 4732, 4756)
+- Files cleaned except for downloads, such as those in System32
+- Instances of `cmd.exe` launched from `winword.exe`
+- Instances of `powershell.exe` making outbound connections
+- Instances of `svchost.exe` launched from `services.exe`
+- Usage of `cscript.exe`, `wscript.exe`, and `powershell.exe`
+- Reasons for using `EncodedCommand`
