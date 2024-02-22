@@ -1,7 +1,9 @@
 
+# Xiao Netlytical
+
 CyberHuntEnv is an open-source project and platform dedicated to creating an environment for IT and security professionals. It empowers them to comprehend their dynamically evolving environments, establish baselines, identify anomalies, and implement security measures.
 
--- By xiao.netlytical  
+-- by xiao netlytical           xiao.netlytical@gmail.com  
 
 ## CyberHuntEnv
 
@@ -15,7 +17,7 @@ CyberHuntingEnv seamlessly integrates with generative AI. During exploration, us
 
 Through the interactive interface, users can execute and refine their explorations, analyze results, and build aggregated databases. This iterative exploration process enables users to gain deeper insights into their environments.
 
-## Empowered by AI Model
+## Empowered by LLM model
 
 In the realm of cybersecurity and threat hunting, the volume of knowledge, information, and datasets involved is substantial. These encompass:
 
@@ -26,15 +28,16 @@ In the realm of cybersecurity and threat hunting, the volume of knowledge, infor
 5. Local context regarding risks, vulnerabilities, and attack patches.
 6. Dynamic characteristics of new threat intelligence reports.
 
-Compared to other security products, the platform, empowered by the AI model, offers users an ideal solution with a consolidated knowledge base featuring updated threat intelligence and a natural language interface.
+CyberHuntEnv, serving as an LLM agent with RAG and empowered by an LLM model, offers users an ideal solution with a consolidated knowledge base featuring updated threat intelligence and a natural language interface.
 
-As users develop their exploration plans and formulate queries, they can interactively consult the platform for information and knowledge. The platform enables users to progressively acquire information starting from high-level requests and drilling down to technical details associated with data files, including format, fields, and values.  Additionally, the platform empowers users to refine their queries with the aid of predefined prompts and prompt chains, guiding them to obtain the desired details.
+As users develop their exploration plans and formulate queries, they can interactively consult the platform for information and knowledge. The platform enables users to progressively acquire information starting from high-level requests and drilling down to technical details associated with data files, including format, fields, and values.  Additionally, the platform will refine user's queries with the aid of predefined prompts and prompt chains, guiding them to obtain the desired details.
 
 The GPT model comprehends natural language queries from users and delivers precise and executable outputs in a declarative language—KiwiSpec.
 
 Through continuous learning and enhancement of prompt chains, we anticipate that the GPT model will comprehend very high-level queries, integrate extensive domain knowledge, address any gaps, and generate executable KiwiSpec outputs. One of the ultimate goals will be deriving the executable KiwiSpecs from a threat intelligence report.
 
 ## Empowered by KiwiSpec
+https://github.com/xiao-netlytical/KiwiSpec
 
 Utilizing log files, configuration files, and deployment files in JSON format as input sources, users can specify the assets and contents they wish to extract, classify assets, examine activities and dependencies, establish baselines, and track relationships.
 
@@ -65,6 +68,7 @@ Collect KiwiSpecs as security validation rules for ongoing validations.
 Launch the platform with pre-built prompts and pre-built KiwiSpecs.
 Continuously learn new prompts, prompt chains, and KiwiSpecs.
 Generate discovery and violation reports.
+
 ### Features
 
 The following features are provided by the platform:
