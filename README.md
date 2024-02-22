@@ -1,8 +1,9 @@
 
-***<p align="right">Xiao Netlytical</p>***
-CyberHuntEnv is an open-source project and platform dedicated to creating an environment for IT and security professionals. It empowers them to comprehend their dynamically evolving environments, establish baselines, identify anomalies, and implement security measures.
+<img width="166" alt="Screen Shot 2024-02-22 at 2 31 51 PM" src="https://github.com/xiao-netlytical/CyberHuntEnv/assets/128750656/e2efd6aa-27b6-4685-b7d7-20b97fe1d179">
 
--- by xiao netlytical           
+
+CyberHuntEnv is an open-source project and platform dedicated to creating an environment for IT and security professionals. It empowers them to comprehend their dynamically evolving environments, establish baselines, identify anomalies, and implement security measures.
+     
 xiao.netlytical@gmail.com  
 
 ## CyberHuntEnv
