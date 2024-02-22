@@ -1,9 +1,9 @@
 
---:### Xiao Netlytical
-
+***<p align="right">Xiao Netlytical</p>***
 CyberHuntEnv is an open-source project and platform dedicated to creating an environment for IT and security professionals. It empowers them to comprehend their dynamically evolving environments, establish baselines, identify anomalies, and implement security measures.
 
--- by xiao netlytical           xiao.netlytical@gmail.com  
+-- by xiao netlytical           
+xiao.netlytical@gmail.com  
 
 ## CyberHuntEnv
 
@@ -60,11 +60,18 @@ During exploration exercises, users can fine-tune their queries through test run
 ## Other Features and Details
 
 The platform enables users to:
+
 Create and store transformed datasets derived from abstractions and aggregations.
+
 Selectively record interactions, including query prompts, KiwiSpecs, and resulting datasets.
+
 Collect KiwiSpecs as discovery rules for ongoing discoveries.
+
 Collect KiwiSpecs as security validation rules for ongoing validations.
+
 Launch the platform with pre-built prompts and pre-built KiwiSpecs.
+
 Continuously learn new prompts, prompt chains, and KiwiSpecs.
+
 Generate discovery and violation reports.
 
