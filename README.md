@@ -33,7 +33,7 @@ CyberHuntEnv, serving as an LLM agent with RAG and empowered by an LLM model, of
 
 As users develop their exploration plans and formulate queries, they can interactively consult the platform for information and knowledge. The platform enables users to progressively acquire information starting from high-level requests and drilling down to technical details associated with data files, including format, fields, and values.  Additionally, the platform will refine user's queries with the aid of predefined prompts and prompt chains, guiding them to obtain the desired details.
 
-The GPT model comprehends natural language queries from users and delivers precise and executable outputs in a declarative language—KiwiSpec.
+The GPT model comprehends natural language queries from users and delivers precise and executable outputs in a declarative language -- KiwiSpec. This approach ensures that users' data will remain solely within their environment, without being transmitted to the LLM model or used as RAG input.
 
 Through continuous learning and enhancement of prompt chains, we anticipate that the GPT model will comprehend very high-level queries, integrate extensive domain knowledge, address any gaps, and generate executable KiwiSpec outputs. One of the ultimate goals will be deriving the executable KiwiSpecs from a threat intelligence report.
 
