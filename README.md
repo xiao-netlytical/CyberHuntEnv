@@ -31,7 +31,7 @@ In the realm of cybersecurity and threat hunting, the volume of knowledge, infor
 
 CyberHuntEnv, serving as an LLM agent with RAG and empowered by an LLM model, offers users an ideal solution with a consolidated knowledge base featuring updated threat intelligence and a natural language interface.
 
-As users develop their exploration plans and formulate queries, they can interactively consult the platform for information and knowledge. The platform enables users to progressively acquire information starting from high-level requests and drilling down to technical details associated with data files, including format, fields, and values.  Additionally, the platform will refine user's queries with the aid of predefined prompts and prompt chains, guiding them to obtain the desired details.
+As users develop their exploration plans and formulate queries, they can interactively consult the platform for information and knowledge. The platform enables users to progressively acquire information starting from high-level requests and drilling down to technical details associated with data files, including format, fields, and values.  Additionally, the platform will extend user's queries with predefined prompts and prompt chainings, guiding them to obtain the desired details.
 
 The GPT model comprehends natural language queries from users and delivers precise and executable outputs in a declarative language -- KiwiSpec. This approach ensures that users' data will remain solely within their environment, without being exposed to the LLM model or used as RAG input.
 
